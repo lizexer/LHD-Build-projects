@@ -1,0 +1,42 @@
+h1 {
+    color: red;
+}
+
+.sneakers_header{
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+}
+
+.sneakers_header-navbar-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sneakers_header-navbar{
+    width: 40%;
+    min-width: 400 px;
+    border: 1px solid red;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: spacearound;
+}
+
+.sneakers_header-navbar-item{
+    font-size: 20px;
+    padding: 0px 10px;
+    margin: auto 0;
+}
+
+.sneakers_header-navbar-link{
+    text-decoration: none;
+    color: white;
+}
+.sneakers_header-navbar-logo{
+    width: auto;
+    height: 60px;
+}
